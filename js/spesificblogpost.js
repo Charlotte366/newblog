@@ -20,7 +20,7 @@
         
    
     
-    containerBlogs.innerHTML = `<div class="posts">
+    containerBlogs.innerHTML = `<div class="blogs">
     <h1> ${result.title.rendered}</h1>
     <p>Date published: ${result.date}</p>
     ${result.content.rendered}
