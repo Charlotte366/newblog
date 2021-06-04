@@ -390,7 +390,6 @@ footer {
     border-radius: 8px;
   }
 
-  .posts img,
   .postimg img {
     height: 300px;
     width: 300px;
@@ -476,7 +475,6 @@ footer {
 
   .posts {
     padding: 10px;
-    margin: 5px;
     background-color: white;
     border-radius: 6px;
   }
