@@ -17,11 +17,16 @@ h3,
 h4,
 h5,
 h6 {
+  max-width: 600px;
+  margin: 0 auto;
   color: #393939;
 }
 
 .current {
   color: deeppink;
+}
+
+.aboutus {
 }
 
 header {
@@ -132,16 +137,13 @@ hr {
   margin-bottom: 20px;
 }
 
-.LatestPosts {
+.posts {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  margin-top: 50px;
-  padding-bottom: 50px;
-  width: 100%;
+  justify-content: space-around;
 }
 
-.carousel,
 .copyright,
 .face,
 .insta,
@@ -151,17 +153,6 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.carousel {
-  width: 100%;
-}
-
-.carousel img {
-  width: 100%;
-  height: 200px;
-  border-radius: 8px;
-  object-fit: cover;
 }
 
 .arrows {
@@ -175,6 +166,10 @@ hr {
 
 .blogs {
   margin-bottom: 20px;
+}
+
+.content img {
+  object-fit: cover;
 }
 
 .showmore {
@@ -349,7 +344,7 @@ footer {
 }
 
 .lionsabout {
-  height: 300px;
+  height: 350px;
   width: 100%;
   object-fit: cover;
 }
@@ -359,24 +354,12 @@ footer {
     font-size: 16px;
   }
 
-  .LatestPosts {
-    display: flex;
-    flex-direction: column;
-  }
-
   .footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-
-  .carousel img {
-    height: 200px;
-    width: 200px;
-    border-radius: 8px;
-    object-fit: cover;
   }
 
   .contactimg {
@@ -390,6 +373,7 @@ footer {
     border-radius: 8px;
   }
 
+  .posts img,
   .postimg img {
     height: 300px;
     width: 300px;
@@ -475,6 +459,7 @@ footer {
 
   .posts {
     padding: 10px;
+    margin: 5px;
     background-color: white;
     border-radius: 6px;
   }
