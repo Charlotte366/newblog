@@ -370,6 +370,12 @@ footer {
   padding-top: 10px;
 }
 
+.lionsabout {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+}
+
 @media (max-width: 480px) {
   .p {
     font-size: 16px;
@@ -502,5 +508,12 @@ footer {
     height: 300px;
     justify-content: left;
     justify-items: left;
+  }
+
+  .aboutus {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
 }
