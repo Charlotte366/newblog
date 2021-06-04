@@ -481,10 +481,6 @@ footer {
     border-radius: 6px;
   }
 
-  .content {
-    margin: auto;
-  }
-
   .aboutus {
     display: flex;
     flex-direction: column;

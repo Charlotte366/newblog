@@ -190,15 +190,6 @@ hr {
   margin-bottom: 20px;
 }
 
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  object-fit: cover;
-}
-
 .content img {
   object-fit: cover;
 }
@@ -495,16 +486,16 @@ footer {
   }
 
   .containerblog {
-    margin-top: 10%;
-    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .posts {
-    display: flex;
-    flex-direction: row-reverse;
-    padding-bottom: 10%;
-    justify-content: left;
-    justify-items: left;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 6px;
   }
 
   .content img {
