@@ -484,14 +484,21 @@ footer {
     font-weight: bolder;
   }
 
+  .containerblog {
+    margin-top: 10%;
+  }
+
   .posts {
     display: flex;
     flex-direction: row-reverse;
     padding-bottom: 10%;
+    justify-content: left;
+    justify-items: left;
   }
 
-  .content {
-    align-items: center;
+  .content img {
+    width: 400px;
+    height: 300px;
     justify-content: left;
     justify-items: left;
   }
