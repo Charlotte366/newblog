@@ -21,7 +21,7 @@
    
     
     containerBlogs.innerHTML = `<div class="blogs">
-    <h1> ${result.title.rendered}</h1>
+    <h2> ${result.title.rendered}</h2>
     <p>Date published: ${result.date}</p>
     ${result.content.rendered}
                 </div>
