@@ -228,13 +228,6 @@ a:hover {
   color: #67aded;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-  justify-content: space-around;
-  border-radius: 8px;
-}
-
 .form-error {
   display: none;
   color: red;
@@ -349,6 +342,17 @@ footer {
   object-fit: cover;
 }
 
+.LatestPosts {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.carousel img {
+  height: 200px;
+  width: auto;
+}
+
 @media (max-width: 480px) {
   .p {
     font-size: 16px;
@@ -417,13 +421,6 @@ footer {
   .headerimg img {
     width: 100%;
     height: 300px;
-  }
-
-  img {
-    width: 400px;
-    height: 400px;
-    justify-content: space-around;
-    border-radius: 8px;
   }
 }
 
