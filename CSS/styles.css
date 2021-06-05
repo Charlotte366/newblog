@@ -395,6 +395,10 @@ footer {
     align-items: center;
   }
 
+  .containerForm {
+    width: 100%;
+  }
+
   .carousel img {
     height: 200px;
     width: 200px;
