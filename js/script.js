@@ -33,7 +33,7 @@ for (let i = 0; i < results.length; i++) {
 
         // Arrows visibility
         //If page number is more than 1, show previous arrow
-        if (page != 1) {
+        if (page !== 1) {
             arrowLeft.style.display = "block";
         } else {
             arrowLeft.style.display = "none";
