@@ -372,6 +372,16 @@ footer {
     font-size: 16px;
   }
 
+  header {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+  }
+
+  nav a {
+    background-color: white;
+  }
+
   .LatestPosts {
     display: flex;
     flex-direction: column;
